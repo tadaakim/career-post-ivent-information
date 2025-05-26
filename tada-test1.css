@@ -1,0 +1,37 @@
+.hero {
+  display: flex; /* 横並びに！ */
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #fff5cc;
+  flex-wrap: wrap; /* スマホ時は縦並びに切り替え */
+  text-align: left; /* 中央揃えを解除 */
+}
+
+.hero-text {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.hero-image img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+.section {
+  flex: 0 1 280px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.section-image {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
